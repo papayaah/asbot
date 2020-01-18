@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 var logger = require('winston');
-var auth = require('./auth.json');
+const auth = require('./auth.json');
 const StompJs = require('@stomp/stompjs');
 const jimp = require('jimp');
 Object.assign(global, { WebSocket: require('websocket').w3cwebsocket });
@@ -99,4 +99,4 @@ discordClient.on('message', msg => {
   }
 });
 
-discordClient.login('NjY3OTcxNDA1NDAwMzc1MzM3.XiKfEw.4_qz4PWyJmYbtKU_OOfiVbCRCsU');
+discordClient.login(auth.token);
