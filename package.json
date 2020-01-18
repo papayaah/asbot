@@ -1,0 +1,18 @@
+{
+  "name": "asbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@stomp/stompjs": "^5.4.2",
+    "discord.js": "github:discordjs/discord.js",
+    "jimp": "^0.9.3",
+    "websocket": "^1.0.31",
+    "winston": "^3.2.1"
+  }
+}
